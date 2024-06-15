@@ -1,4 +1,4 @@
 os
-matplotlib.pyplot
+matplotlib
 streamlit
 pandas
