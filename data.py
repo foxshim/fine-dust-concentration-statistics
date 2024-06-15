@@ -173,7 +173,7 @@ def main_page():
             ax.set_title(f'PM2.5 Density on {year}-{month:02d}-{day:02d}')
             st.pyplot(fig)
     else:
-        st.write("해당 날짜의 데이터가 없습니다.(형식 : 일시-1시간평균 미세먼지농도(㎍/㎥))")
+        st.write("해당 날짜의 데이터가 없습니다.(형식 : 일시(시간)-1시간평균 미세먼지농도(㎍/㎥))")
         st.write("데이터를 업로드하여 추가해주세요.")
         
         uploaded_file = st.file_uploader("CSV 파일 업로드", type="csv")
